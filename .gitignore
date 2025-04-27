@@ -176,3 +176,4 @@ cython_debug/
 pyvenv.cfg
 lib64
 bin/*
+Data/*
