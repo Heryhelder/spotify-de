@@ -177,3 +177,4 @@ pyvenv.cfg
 lib64
 bin/*
 Data/*
+include/
