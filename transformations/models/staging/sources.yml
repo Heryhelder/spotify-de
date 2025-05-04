@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: "spotify_data"
+    description: "Spotify user data"
+    schema: "user-read-recently-played"
+    tables:
+      - name: "listen_history"
+        description: "Listen history from Spotify"
+        columns:
+          - name: "played_at"
+            description: "Timestamp of when the song was played"
+            tests:
+              - unique
+              - not_null
