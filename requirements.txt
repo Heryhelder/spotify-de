@@ -1,9 +1,4 @@
 agate==1.9.1
-airbyte==0.24.2
-airbyte-api==0.52.2
-airbyte-cdk==6.48.6
-airbyte_protocol_models_dataclasses==0.15.0
-airbyte_protocol_models_pdv2==0.13.1
 annotated-types==0.7.0
 anyascii==0.3.2
 anyio==4.9.0
